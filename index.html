@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>assignment-3</title>
+    <script src="https://kit.fontawesome.com/3d81e73ac9.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+   
 </head>
-<body>
-    
+
+<body class="manrope-font bg-gradient-to-b from-slate-300 ">
+    <header class="max-w-screen-lg  mx-auto md:flex lg:flex">
+        <div class="navbar">
+            <div class="navbar-start">
+                <div class="rounded-full h-9 w-9 rotate-45 mt-2 bg-lime-400">
+                    <i class="fa-solid fa-arrow-up mt-3 ml-3 "></i>
+                </div>
+                <h1 class="text-4xl font-bold ml-2">Rinterio</h1>
+                
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-lg text-slate-600">
+                    <li><a class="font-bold">Home</a></li>                   
+                    <li><a>Service</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <div class="rounded-full h-9 w-9 mt-2 border bg-white">
+                    
+                    <i class="fa-solid fa-magnifying-glass mx-2 my-2 text-slate-500"></i>
+                </div>
+                <div class="rounded-full h-9 w-9 mx-4  mt-2 bg-white">
+                    <i class="fa-solid fa-cart-shopping my-2 mx-2 text-slate-500"></i>
+                </div>
+                <div>
+                    <button type="button" class=" bg-gradient-to-r from-lime-400 to-lime-300 rounded-3xl px-5 py-2 font-bold ">Book Result 
+                       <span class="rounded-full h-9 w-9  bg-black "><i class="fa-solid fa-arrow-up   text-white rotate-45 "></i> </span> 
+                    </button>
+                </div>
+            </div>
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="lg:hidden">
+                    <i class="fa-solid fa-bars "></i> 
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 right-6 w-52 p-2 shadow">
+                    <li><a>Item 1</a></li>
+                    <li>
+                        <a>Parent</a>
+                        <ul class="p-2">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Item 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
 </body>
+
 </html>
